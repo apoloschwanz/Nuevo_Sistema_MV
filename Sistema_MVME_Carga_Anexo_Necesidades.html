@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 5.0.5.2 (Windows)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="2017-01-02T17:24:10.657000000"/>
+	<meta name="created" content="00:00:00">
+	<meta name="changed" content="2017-01-02T17:10:59.991000000">
+	<style type="text/css">
+		@page { margin: 2cm }
+		p { margin-bottom: 0.25cm; line-height: 120% }
+		pre.cjk { font-family: "NSimSun", monospace }
+		a:link { so-language: zxx }
+	</style>
+</head>
+<body lang="es-AR" dir="ltr">
+<pre class="western"><font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">SISTEMA MVME</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Carga de Anexo</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">- El Coordinador General Carga Los Datos del Anexo</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">1 - El Coordinador General Ingresa el n&uacute;mero de Capacitaci&oacute;n correspondiente al anexo.</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">2 - El sistema muestra una pantalla con los datos de la capacitaci&oacute;n.</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">3  - Luego ingresa el n&uacute;ero del Anexo.</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">4 &ndash; El sistema muestra la pantalla con los datos de la capacitaci&oacute;n.</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Ahi ingresa los sigientes datos:</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Fecha de la Capacitacion.</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Turno</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Horario ( hora desde, hasta )</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">A&ntilde;os y Cursos Capacitados</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Cantidad Total de Alumnos Presentes</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Cantiead Total de Docentes y Autoridades</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Observaciones Adicionales</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Para Cada Coordinador:</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Nombre</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Orden</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Para Cada Docente:</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Nombre</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Orden</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Para Cada Pregunta del Anexo:</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Numero de la Pregunta</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Texto</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Combo con Opciones de Respuesta</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Si la respuesta incluye texto:</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Descripcion: (i.e. Por que ?)</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Texto de la Respuesta.(i.e. No se paso el video porque no habia proyector)</font></font>
+
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Posibles Escenarios:</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">A &ndash; El numero de capacitaci&oacute;n ingresado no existe,o pertenece a otra edici&oacute;n.</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">B &ndash; El n&uacute;mero de anexo ingresado ya esta asociado a otra capacitaci&oacute;n.</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">C &ndash; La capacitaci&oacute;n esta asociada a un anexo diferente del ingresado.</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">D &ndash; El cc ya asocio el anexo a la capacitacion. La caacitacion esta en estado Hecha. Y tiene cargaod el valor de Anexo_Nro.</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">E &ndash; El anexo no existe.</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">El sistema da de alta un registro en la tabla de anexos.</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Copia los datos de la Capacitacion al Anexo:</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Establecimiento</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Turno</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">A&ntilde;os y Cursos Capacitados</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Docentes</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Coordinadores</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Da de alta tambien las respuestas del anexo ( en blanco ).</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Graba el Campo Anexo_Nro de la capacitacion correspondiente.</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Pasa la capacitacion a estado H</font></font>
+
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">- El coordinador General Reasigna el Anexo a otra capacitaciones</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">El coordinador General se da Cuenta que el anexo esta asociado a la capacitaci&oacute;n incorrecta.</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">El sistema cambia:</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Para la capacitacion Incorrecta:</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">La pone en estado 'Confirmada'</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Blanquea el Numero de Anexo asociado (Anexo_Nro)</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Para la capacitacion Correcta:</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Pasa la capacitaci&oacute;n a estado 'Hecha'</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Graba el campo Anexo_Nro.</font></font>
+
+
+
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Formato:</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Datos de La Capacitacion</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">C&oacute;digo de capacitacion </font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">22536</font></font>
+
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Fecha </font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">2016-11-14</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Mi voto mi elecci&oacute;n</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Hora Desde </font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">16:30:00</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Hora Hasta </font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">17:50:00</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Nombre del Establecimiento </font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Esc. Normal Superior N&deg; 02 en Lenguas Vivas Mariano Acosta</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Comuna </font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">3</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Barrio</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">BALVANERA</font></font>
+<font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt">Ingrese n&uacute;mero de Anexo </font></font>
+
+
+
+
+
+
+
+
+
+
+</pre>
+</body>
+</html>
