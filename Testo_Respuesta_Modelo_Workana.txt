@@ -1,1 +1,9 @@
-**** buenos días. Te paso una breve descripcion de las principales funcionalidades, y algunos diagramas entidad-relacion simplificados de la base de datos. Actualmente estamos utliziando un sistema que desarrollamos nosotros con una interface un poco aspera. Lo que precisamos es un sistema que impemente las funcionalidades con una interfaz mas lograda pero que al mismo tiempo respete la estructura de la base de datos ya que tenemos datos desde al año 2013.
+Estimados , buenos días. Adjuntamos al proyecto una breve descripcion de las principales funcionalidades, y algunos diagramas entidad-relacion simplificados de la base de datos. Actualmente estamos utliziando un sistema que desarrollamos nosotros con una interface un poco aspera. Lo que precisamos es un sistema que impemente las funcionalidades con una interfaz mas lograda pero que al mismo tiempo respete la estructura de la base de datos ya que tenemos datos desde al año 2013. Por distintos motivos preferimos que el desarrollo sea en php con mysql, evitando en lo posible el uso de JavaScript.
+
+Cualquier otra informacion que pueda servirles no duden en hacernoslo saber.
+
+Desde ya muchas gracias por el interés. 
+
+Cordialmente
+
+Daniel
